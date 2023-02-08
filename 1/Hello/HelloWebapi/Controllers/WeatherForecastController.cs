@@ -49,6 +49,29 @@ namespace HelloWebapi.Controllers
             .ToArray()[0];
         }
 
+        // POST api/<WeatherForecast>
+        [HttpPost]
+        public void Post([FromBody] string value)
+        {
+        }
+
+        // PUT api/<WeatherForecast>/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] string value)
+        {
+        }
+
+        // DELETE api/<WeatherForecast>/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+        }
+
+        [HttpPatch]
+        public void Patch([FromBody] string value)
+        {
+            
+        }
 
         /*
         [HttpGet]
