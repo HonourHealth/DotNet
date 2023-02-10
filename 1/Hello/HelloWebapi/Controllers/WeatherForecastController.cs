@@ -23,7 +23,7 @@ namespace HelloWebapi.Controllers
         {
             _logger = logger;
         }
-
+        /*
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
@@ -37,8 +37,11 @@ namespace HelloWebapi.Controllers
             })
             .ToArray();
         }
+        */
+
         private ActionResult<List<WeatherForecast>> GetList()//
-        {   var rng = new Random();
+        {   
+            var rng = new Random();
             List<WeatherForecast> list = new();
             list.Add(new WeatherForecast { Id = 1, Date = DateTime.Now.AddDays(1), TemperatureC = rng.Next(-20, 55), Summary = Summaries[rng.Next(Summaries.Length)]});
             list.Add(new WeatherForecast { Id = 2, Date = DateTime.Now.AddDays(2), TemperatureC = rng.Next(-20, 55), Summary = Summaries[rng.Next(Summaries.Length)]});
@@ -48,7 +51,31 @@ namespace HelloWebapi.Controllers
             return new ActionResult<List<WeatherForecast>>(list);
         }
 
+        /////////////////////////////////////////////////
+        private static List<WeatherForecast> WeatherList = new List<WeatherForecast>()
+        {   
+            
+            new WeatherForecast { Id = 1, Date = DateTime.Now.AddDays(1), TemperatureC = new Random().Next(-20, 55), Summary = Summaries[new Random().Next(Summaries.Length)]},
+            new WeatherForecast { Id = 2, Date = DateTime.Now.AddDays(2), TemperatureC = new Random().Next(-20, 55), Summary = Summaries[new Random().Next(Summaries.Length)]},
+            new WeatherForecast { Id = 3, Date = DateTime.Now.AddDays(3), TemperatureC = new Random().Next(-20, 55), Summary = Summaries[new Random().Next(Summaries.Length)]},
+            new WeatherForecast { Id = 4, Date = DateTime.Now.AddDays(4), TemperatureC = new Random().Next(-20, 55), Summary = Summaries[new Random().Next(Summaries.Length)]},
+            new WeatherForecast { Id = 5, Date = DateTime.Now.AddDays(5), TemperatureC = new Random().Next(-20, 55), Summary = Summaries[new Random().Next(Summaries.Length)]}
+        };
+        //////////////////////////////////////////////////
+        
+        [HttpGet]
+        public IEnumerable<WeatherForecast> Get()
+        {
+            return WeatherList;
+        }
 
+        [HttpGet("{id}")] //api/WeatherForecast/3
+        public ActionResult<WeatherForecast> GetById(int id)
+        {
+            return WeatherList.ElementAt(id-1);
+        }
+
+        /*
         [HttpGet("{id}")] //api/WeatherForecast/3
         public ActionResult<WeatherForecast> GetById(int id)
         {
@@ -62,7 +89,15 @@ namespace HelloWebapi.Controllers
             })
             .ToArray()[0];
         }
-        
+        */
+        [HttpPost]
+        public ActionResult<List<WeatherForecast>> Post([FromBody] WeatherForecast weather)
+        {
+            List<WeatherForecast> list = WeatherList;
+            list.Add(weather);
+            return new ActionResult<List<WeatherForecast>>(list);
+        }
+        /*
         [HttpPost]
         public ActionResult<List<WeatherForecast>> Post([FromBody] WeatherForecast weather)
         {
@@ -70,7 +105,37 @@ namespace HelloWebapi.Controllers
             list.Add(weather);
             return new ActionResult<List<WeatherForecast>>(list);
         }
+        */
 
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] WeatherForecast updatedWeather)
+        {
+            //List<WeatherForecast> weather = GetList().Value;
+            var weather = WeatherList.SingleOrDefault(weather => weather.Id == id);
+            if (weather == null)
+                return BadRequest();
+            weather.Date = updatedWeather.Date != default ? updatedWeather.Date : weather.Date;
+            weather.TemperatureC = updatedWeather.TemperatureC != default ? updatedWeather.TemperatureC : weather.TemperatureC;
+            //weather.TemperatureC = Convert.ToInt32(updatedWeather.TemperatureC);
+            weather.Summary = updatedWeather.Summary != default ? updatedWeather.Summary : weather.Summary;
+            return Ok();
+        }
+
+        /*
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] WeatherForecast updatedWeather)
+        {
+            //List<WeatherForecast> weather = GetList().Value;
+            var weather = WeatherList.SingleOrDefault(weather => weather.Id == id);
+            if (weather == null)
+                return BadRequest();
+            weather.Date = updatedWeather.Date != default ? updatedWeather.Date : weather.Date;
+            weather.TemperatureC = updatedWeather.TemperatureC != default ? updatedWeather.TemperatureC : weather.TemperatureC;
+            //weather.TemperatureC = Convert.ToInt32(updatedWeather.TemperatureC);
+            weather.Summary = updatedWeather.Summary != default ? updatedWeather.Summary : weather.Summary;
+            return Ok();
+        }
+        */
         /*
         [HttpPut("{id}")]
         public ActionResult<List<WeatherForecast>> Put([FromRoute] int Id, [FromBody] WeatherForecast request)
@@ -88,12 +153,35 @@ namespace HelloWebapi.Controllers
         [HttpDelete("{id}")]
         public ActionResult<List<WeatherForecast>> Delete([FromRoute] int id)
         {
+            var list = WeatherList;
+            WeatherForecast weather = list.Where(x => x.Id == id).FirstOrDefault();
+            list.Remove(weather);
+            return new ActionResult<List<WeatherForecast>>(list);
+        }
+        /*
+        [HttpDelete("{id}")]
+        public ActionResult<List<WeatherForecast>> Delete([FromRoute] int id)
+        {
             var list = GetList().Value;
             WeatherForecast weather = list.Where(x => x.Id == id).FirstOrDefault();
             list.Remove(weather);
             return new ActionResult<List<WeatherForecast>>(list);
         }
-        
+        */
+        [HttpPatch("{id}")]
+        public IActionResult Patch(int id, [FromBody] WeatherForecast updatedWeather)
+        {
+            //List<WeatherForecast> weather = GetList().Value;
+            var weather = WeatherList.SingleOrDefault(weather => weather.Id == id);
+            if (weather == null)
+                return BadRequest();
+            //weather.Date = updatedWeather.Date != default ? updatedWeather.Date : weather.Date;
+            weather.TemperatureC = updatedWeather.TemperatureC != default ? updatedWeather.TemperatureC : weather.TemperatureC;
+            //weather.TemperatureC = Convert.ToInt32(updatedWeather.TemperatureC);
+            //weather.Summary = updatedWeather.Summary != default ? updatedWeather.Summary : weather.Summary;
+            return Ok();
+        }
+
         /*
         // POST api/<WeatherForecast>
         [HttpPost]
