@@ -7,3 +7,5 @@ Give 500, 400, 404, 200, 201 errors in standard format with Error Handler.
 Mandatory fields should be checked in models.
 Routing should be used.
 Model binding operations should be sampled both from body and from query.
+
+Note that .Net 5 is used in that project.
