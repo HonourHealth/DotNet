@@ -5,3 +5,5 @@ Develop an extension to be used in your API.
 A swagger implementation should be implemented in the project. 
 A middleware that does global logging (very simple, just like the action is entered).
 Create the global exception middleware.
+
+Note: .Net version is 7
