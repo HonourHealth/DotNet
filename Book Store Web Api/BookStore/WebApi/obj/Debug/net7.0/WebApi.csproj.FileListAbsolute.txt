@@ -1,0 +1,94 @@
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+c:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\onurcan\Desktop\DotNetPracticum\BookStore\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.dll
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+d:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\appsettings.json
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\AutoMapper.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\FluentValidation.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\Program Files\GitHub\DotNet-API\4\BookStore\WebApi\obj\Debug\net7.0\ref\WebApi.dll
